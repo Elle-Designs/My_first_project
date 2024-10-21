@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    Padding: 0;
+}
+html{
+    font-size: 14px;
+}
+body{
+    background-color: #fffccd;
+    font-family: sans-serif;
+}
+header{
+    background-color: teal;
+    hieght: auto;
+    width: 100%;
+    padding: 1rem;
+}
+.navbar{
+    width: 100%;
+    height: 100%;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    color: white;
+}
+.menu{
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    list-style: none;
+}
+.menu li{
+    text-transform: uppercase;
+}
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 980px;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+}
+main h3{
+    margin-top: 4rem;
+    font-size: 40px;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+#mydiv{
+    display: flex;
+    width: 100%;
+    hieght: auto;
+    padding: 2rem;
+    gap: 1rem;
+    justify-content: space-around;
+}
+#mydiv p{
+    text-align: start;
+    max-width: 500px;
+    margin-top: 8px;
+}
+
